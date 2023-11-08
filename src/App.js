@@ -25,7 +25,6 @@ function App() {
       // Init
       annotorious = new Annotorious({
         image: imgEl.current,
-        crosshair: true,
         disableEditor: true
       });
 
