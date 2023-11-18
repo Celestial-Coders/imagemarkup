@@ -1,0 +1,122 @@
+[
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "yesir",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "http://localhost:3000/static/media/power.044e8969d588ca11c096.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:131,166,106,101"
+      }
+    },
+    "id": "#5b090653-670e-4155-b144-6dfd9df0496d"
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "hello",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "http://localhost:3000/static/media/power.044e8969d588ca11c096.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:480,160,178,178"
+      }
+    },
+    "id": "#2f33791a-0754-4827-9a93-e44e98b89f11"
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "yesir",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "http://localhost:3000/static/media/power.044e8969d588ca11c096.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:131,166,106,101"
+      }
+    },
+    "id": "#5b090653-670e-4155-b144-6dfd9df0496d"
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "no",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "http://localhost:3000/static/media/power.044e8969d588ca11c096.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:297,66,113,66"
+      }
+    },
+    "id": "#a2ec5740-b313-4f51-a865-9d93474a8b41"
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "hel",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "http://localhost:3000/static/media/power.044e8969d588ca11c096.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:145,80,186,119"
+      }
+    },
+    "id": "#c17dabfe-feae-4a60-95fe-7e3250b7244e"
+  },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+      {
+        "type": "TextualBody",
+        "value": "hi",
+        "purpose": "commenting"
+      }
+    ],
+    "target": {
+      "source": "http://localhost:3000/static/media/power.044e8969d588ca11c096.jpg",
+      "selector": {
+        "type": "FragmentSelector",
+        "conformsTo": "http://www.w3.org/TR/media-frags/",
+        "value": "xywh=pixel:471,247,117,51"
+      }
+    },
+    "id": "#c1248f36-5ee0-45a6-9a25-26f14595d092"
+  }
+]
