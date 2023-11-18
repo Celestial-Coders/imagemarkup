@@ -25,6 +25,7 @@ mongoose.connect(process.env.DB_URI, dbOptions)
 .then(() => console.log('DB connected!'))
 .catch(err => console.log(err))
 
+//pls
 
 //production
 app.use(express.static('./frontend/build'))
