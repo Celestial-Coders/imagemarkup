@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Annotorious } from '@recogito/annotorious';
 import '@recogito/annotorious/dist/annotorious.min.css';
 import axios from "axios"
+import baseUrl from "../baseUrl";
 
 function Home() {
 
@@ -128,7 +129,7 @@ function Home() {
     }
 
     const axiosFetchData = async(processing) => {
-      await axios.get('http://localhost:4000/load-anno')
+      await axios.get('${baseUrl}/load-anno')
       .then(res => {
           if (processing) {
               setLoadAnno(res.data)
@@ -146,7 +147,7 @@ function Home() {
     
     const axiosPostData = async() => {
       const postData = anno.getAnnotations();
-      await axios.post('http://localhost:4000/save-anno', postData)
+      await axios.post('${baseUrl}/save-anno', postData)
       .then(res => setError(<p className="success">{res.data}</p>))
     }
 

@@ -4,6 +4,7 @@ const bodyParser = require('body-parser')
 const router = require('./routes/router')
 const mongoose = require('mongoose')
 require('dotenv/config')
+const path = require('path')
 
 const app = express();
 
@@ -23,6 +24,13 @@ const dbOptions = {useNewUrlParser:true, useUnifiedTopology:true}
 mongoose.connect(process.env.DB_URI, dbOptions)
 .then(() => console.log('DB connected!'))
 .catch(err => console.log(err))
+
+
+//production
+app.use(express.static('./frontend/build'))
+app.get('*', (req,res) => {
+    res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"))
+})
 
 const port = process.env.PORT || 8080
 app.listen(port, () => {
