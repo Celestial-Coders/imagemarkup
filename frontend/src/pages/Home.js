@@ -121,7 +121,7 @@ function Home() {
     }
 
     const loadAnno = () => {
-      console.log(loadedAnno.length);
+      console.log(loadedAnno);
       for(var i = 0; i < loadedAnno.length; i++){
           console.log(loadedAnno[i].body[0].value);
           anno.addAnnotation(loadedAnno[i]);
