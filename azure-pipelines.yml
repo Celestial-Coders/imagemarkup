@@ -30,3 +30,5 @@ steps:
     enableCustomDeployment: true
     DeploymentType: 'webDeploy'
     RemoveAdditionalFilesFlag: true
+
+- task: PublishBuildArtifacts@1
