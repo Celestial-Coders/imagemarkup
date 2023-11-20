@@ -130,7 +130,7 @@ function Home() {
 
     //${baseUrl}
     const axiosFetchData = async(processing) => {
-      await axios.get('${baseUrl}/load-anno')
+      await axios.get(baseUrl+'/load-anno')
       .then(res => {
           if (processing) {
               setLoadAnno(res.data)
@@ -148,7 +148,7 @@ function Home() {
     //${baseUrl}
     const axiosPostData = async() => {
       const postData = anno.getAnnotations();
-      await axios.post('${baseUrl}/save-anno', postData)
+      await axios.post(baseUrl+'/save-anno', postData)
       .then(res => setError(<p className="success">{res.data}</p>))
     }
 
